@@ -1,0 +1,6 @@
+f = int(input())
+s = int(input())
+print(f*((s-(s//100)*100-((s-(s//100)*100))//10*10)//1))
+print(f*(((s-(s//100)*100))//10))
+print(f*(s//100))
+print(f*s)
